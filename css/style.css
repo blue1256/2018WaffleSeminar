@@ -9,9 +9,10 @@
 
 .container {
 	position: relative;
-  margin: 0;
+  margin: 0 0 10% 0;
   padding: 0;
   min-width: 100%;
+  
 }
 
 .mytable{
@@ -25,9 +26,15 @@
   margin: auto;
 }
 
+.self-img {
+  display: block;
+  margin: 0 auto;
+  max-width: 70%;
+}
+
 #footer {
   border-top: 1px solid lightgray;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   min-width: 100%;
   background-color: #231C1F;
